@@ -1,5 +1,5 @@
 export const weddingCustomer = (details) => {
-    const { bride_name, groom_name, budget, additional_info } = details
+    const { bride_name, groom_name, budget, additional_info, wedding_type } = details
     return `
     <!DOCTYPE html>
     <html lang="en">

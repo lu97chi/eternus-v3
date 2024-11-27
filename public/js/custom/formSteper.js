@@ -199,7 +199,7 @@ form.addEventListener("submit", async (event) => {
     bride_name,
     groom_name,
     budget,
-    weeding_type,
+    wedding_type,
     additional_info,
   } = formObject;
 
@@ -213,7 +213,7 @@ form.addEventListener("submit", async (event) => {
         bride_name,
         groom_name,
         budget,
-        weeding_type,
+        wedding_type,
         additional_info,
       }),
     });
@@ -230,7 +230,7 @@ form.addEventListener("submit", async (event) => {
           bride_name,
           groom_name,
           budget,
-          weeding_type,
+          wedding_type,
           additional_info,
         }),
       });
