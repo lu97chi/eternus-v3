@@ -1,0 +1,66 @@
+/* Keyframe Animations */
+@keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideOutToLeft {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+ /* Form Container */
+.form-container {
+    position: relative;
+    overflow: hidden;
+    transition: height 0.5s ease-in-out;
+  }
+  
+  /* Form Steps */
+  .form-step {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(100%);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .form-step.active {
+    position: relative;
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+  }
+  
+  .form-step.animate-out {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  
+  .form-step.animate-in {
+    transform: translateX(100%);
+    opacity: 1;
+  }
+
+/* Error Message Styling */
+.text-danger {
+  display: block;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+  color: #ff4d4d;
+}
+
+.d-none {
+  display: none !important;
+}
