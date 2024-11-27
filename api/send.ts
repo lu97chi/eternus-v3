@@ -29,7 +29,7 @@ export default async function handler(req:VercelRequest, res:VercelResponse) {
           <p><strong>Bride name:</strong> ${bride_name}</p>
           <p><strong>Groom name:</strong> ${groom_name}</p>
           <p><strong>Budget:</strong> ${budget}</p>
-          <p><strong>Wedding type:</strong> ${weeding_type}</p>
+          <p><strong>Wedding2 type:</strong> ${weeding_type}</p>
           <p><strong>Additional info:</strong> ${additional_info}</p>
         `,
       }),
