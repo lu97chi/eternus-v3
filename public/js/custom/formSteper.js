@@ -1,11 +1,11 @@
 let currentStep = 0; // Initialize to the first step (step-0)
-const totalSteps = 6; // Total number of steps (step-0 to step-6)
+const totalSteps = 7; // Total number of steps (step-0 to step-6)
 const form = document.getElementById("multiStepForm");
 
 /**
  * Moves the form to the next step with animations.
  */
-function nextStep() {
+function nextStep(sucess) {
   const currentElement = document.getElementById(`step-${currentStep}`);
   const nextElement = document.getElementById(`step-${currentStep + 1}`);
 
@@ -44,8 +44,12 @@ function nextStep() {
       }
 
       // If navigating to the Review step, populate the review information
-      if (currentStep === totalSteps) {
+      if (currentStep === totalSteps - 1) {
         populateReviewInfo();
+      }
+
+      if (currentStep === totalSteps) {
+        populateResultInfo(sucess);
       }
     }
 
@@ -145,6 +149,27 @@ function populateReviewInfo() {
 }
 
 /**
+ * Populates the Success/Error case step with the result of the email sending.
+ */
+function populateResultInfo(success) {
+  const resultTitle = document.getElementById("result-header");
+  const resultDescription = document.getElementById("result-description");
+
+  if (success) {
+    resultTitle.innerText = "Email Sent Successfully!";
+    resultDescription.innerText =
+      "Thank you for reaching out to us. We will get back to you shortly.";
+  } else {
+    resultTitle.innerText = "Error Sending Email!";
+    resultDescription.innerText = `
+    An error occurred while sending the email. Please contact us directly.
+    lu97is@gmail.com, sorry for the inconvenience.
+    `;
+  }
+  updateContainerHeight(); // Adjust the container height
+}
+
+/**
  * Initializes the form on page load.
  */
 document.addEventListener("DOMContentLoaded", () => {
@@ -170,7 +195,7 @@ form.addEventListener("submit", async (event) => {
   const formData = new FormData(form);
   const formObject = Object.fromEntries(formData.entries());
   const {
-    email: to,
+    email,
     bride_name,
     groom_name,
     budget,
@@ -180,11 +205,11 @@ form.addEventListener("submit", async (event) => {
 
   try {
     // Call the Vercel function
-    const response = await fetch('/api/send', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+    const response = await fetch("/api/send", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        to,
+        email,
         bride_name,
         groom_name,
         budget,
@@ -195,12 +220,29 @@ form.addEventListener("submit", async (event) => {
 
     if (response.ok) {
       const data = await response.json();
-      console.log('Email sent successfully:', data);
+      console.log("Email sent successfully:", data);
+      nextStep(true);
+      await fetch("/api/customerFeedback", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          email,
+          bride_name,
+          groom_name,
+          budget,
+          weeding_type,
+          additional_info,
+        }),
+      });
     } else {
       const error = await response.json();
-      console.error('Error sending email:', error);
+      nextStep(false);
+      console.error("Error sending email:", error);
     }
   } catch (err) {
-    console.error('Error connecting to serverless function:', err);
+    console.error("Error connecting to serverless function:", err);
+    nextStep(false);
   }
 });
+
+document.addEventListener("resize", updateContainerHeight);

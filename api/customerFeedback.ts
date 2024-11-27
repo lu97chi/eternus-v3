@@ -1,5 +1,5 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node'
-import {weddingContact } from '../public/js/templates/weddingContact'
+import { weddingCustomer } from '../public/js/templates/weddingCustomer';
 
 export default async function handler(req:VercelRequest, res:VercelResponse) {
   if (req.method !== 'POST') {
@@ -22,10 +22,10 @@ export default async function handler(req:VercelRequest, res:VercelResponse) {
         Authorization: `Bearer ${RESEND_API_KEY}`,
       },
       body: JSON.stringify({
-        to: 'lu97is@gmail.com',
+        to: email,
         from: 'onboarding@resend.dev',
-        subject: 'Wedding Planner Form Submission',
-        html: weddingContact({ bride_name, groom_name, budget, wedding_type, additional_info, email}),
+        subject: 'Thank You for Choosing Eternus for Your Special Day',
+        html: weddingCustomer({ bride_name, groom_name, budget, wedding_type, additional_info}),
       }),
     });
 
