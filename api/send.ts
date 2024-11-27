@@ -21,7 +21,8 @@ export default async function handler(req:VercelRequest, res:VercelResponse) {
         Authorization: `Bearer ${RESEND_API_KEY}`,
       },
       body: JSON.stringify({
-        to,
+        to: 'lu97is@gmail.com',
+        from: to,
         subject: 'Wedding Planner Form Submission',
         html: `
           <h1>Wedding Planner Form Submission</h1>
