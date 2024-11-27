@@ -22,7 +22,7 @@ export default async function handler(req:VercelRequest, res:VercelResponse) {
       },
       body: JSON.stringify({
         to: 'lu97is@gmail.com',
-        from: to,
+        from: 'onboarding@resend.dev',
         subject: 'Wedding Planner Form Submission',
         html: `
           <h1>Wedding Planner Form Submission</h1>
