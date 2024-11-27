@@ -7,7 +7,7 @@ export default async function handler(req:VercelRequest, res:VercelResponse) {
   }
 
   const { email, bride_name, groom_name, budget, wedding_type, additional_info } = req.body;
-
+  console.log(req.body, 'this body')
   const RESEND_API_KEY = process.env.RESEND_API_KEY;
 
   if (!RESEND_API_KEY) {

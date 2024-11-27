@@ -222,18 +222,18 @@ form.addEventListener("submit", async (event) => {
       const data = await response.json();
       console.log("Email sent successfully:", data);
       nextStep(true);
-      await fetch("/api/customerFeedback", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          email,
-          bride_name,
-          groom_name,
-          budget,
-          wedding_type,
-          additional_info,
-        }),
-      });
+      // await fetch("/api/customerFeedback", {
+      //   method: "POST",
+      //   headers: { "Content-Type": "application/json" },
+      //   body: JSON.stringify({
+      //     email,
+      //     bride_name,
+      //     groom_name,
+      //     budget,
+      //     wedding_type,
+      //     additional_info,
+      //   }),
+      // });
     } else {
       const error = await response.json();
       nextStep(false);
