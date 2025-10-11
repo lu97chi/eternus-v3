@@ -112,31 +112,9 @@ export default class Header extends BaseComponent {
 			init: true,
 			matchMedia: false,
 			sticky: this._getStickyOptions(),
-			overlay: {
-				containerSelector: this.innerSelectors.overlayContainer,
-				containerSelectorStickyFallback: this.innerSelectors.bar,
-				toggleAttributes: {
-					'data-arts-color-theme': 'data-arts-header-overlay-color-theme'
-				},
-				toggleOpenedClass: 'opened',
-				toggleAnimatingClass: 'animating',
-				onOpen: this._onOverlayOpen.bind(this),
-				onClose: this._onOverlayClose.bind(this),
-			},
-			switcher: {
-				elementSelector: this.innerSelectors.overlaySwitcher,
-				toggleActiveClass: 'header__burger_opened'
-			},
-			menu: {
-				menuSelector: this.innerSelectors.topLevelMenu,
-				submenuBackButtonSelector: this.innerSelectors.submenuBackButton,
-				toggleCurrentMenuClass: 'current',
-				toggleSubmenuOpenedClass: 'opened-submenu',
-				toggleOpeningClass: 'animating',
-				beforeOpen: this._onMenuBeforeOpen.bind(this),
-				onOpen: this._onMenuOpen.bind(this),
-				onClose: this._onMenuClose.bind(this)
-			},
+			overlay: false,
+			switcher: false,
+			menu: false,
 			anchors: {
 				autoCloseOverlay: true,
 				onClick: this._onHeaderAnchorsClick.bind(this)

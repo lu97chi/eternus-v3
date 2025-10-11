@@ -1,0 +1,67 @@
+ACOMODO FOTOS DE BODAS EN ESPECIFICO:
+
+david & edurne
+1  1  2  2
+3  4  4  5
+3  6  7  7
+8  8  8  9
+10 11 11 12
+13 14 14 14
+15 16 17 17
+18 18 19 20
+
+domi & tavo
+2nda boda 
+1  2  2  3
+1  4  5  5
+6  6  7  8
+9  9  9  9   ← hero (4x1) + siguiente fila completa = 8 unidades visuales
+10 10 10 10  ← continua la hero (otra banda 4x1)
+11 12 13 13
+14 15 15 16
+17 18 19 19
+
+
+3er boda
+erika & joey
+1  1  1  2
+3  4  4  2
+5  6  7  7
+8  8  8  8   ← hero (4x1)
+9  10 11 11
+12 12 13 14
+15 16 16 17
+18 19 20 20
+
+4ta
+gaby & toño
+1  2  3  3
+1  4  5  5
+6  6  6  7   ← hero (3x1 a lo ancho de 3 cols)
+8  9  9  7   ← remate horizontal con la 7
+10 11 12 12
+13 13 14 15
+16 17 17 18
+19 19 20 21
+
+5ta
+issac & sami
+1  1  2  3
+4  5  5  3
+4  6  7  7
+8  8  8  9   ← hero (3x1)
+10 11 12 12
+13 14 14 15
+16 16 17 18
+19 20 20 21
+
+6ta
+july & ty
+1  2  2  3
+4  4  5  6
+7  8  8  6
+9  9  9  9   ← hero (4x1)
+10 11 12 12
+13 14 14 15
+16 17 18 18
+19 19 20 21
