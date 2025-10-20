@@ -1,0 +1,135 @@
+{
+  "common": {
+    "bookNow": "Book Now",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "loading": "Loading...",
+    "play": "Play"
+  },
+  "nav": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "team": "Team",
+    "packages": "Packages",
+    "contact": "Contact",
+    "getInTouch": "Get in Touch"
+  },
+  "hero": {
+    "title": "Eternus",
+    "subtitle": "When the flowers fade and the music stops, all that remains are the <u>moments we remember</u>",
+    "tagline": "Eternal Weddings"
+  },
+  "sections": {
+    "seeOurWork": "See our work ",
+    "destinations": "Destinations",
+    "testimonials": "Testimonials",
+    "team": "Team",
+    "packages": "Packages",
+    "teaser": "Wedding Teaser",
+    "promotional": "Wedding Promotional",
+    "credits": "Credits"
+  },
+  "destinations": {
+    "ibiza": "Ibiza",
+    "mykonos": "Mykonos",
+    "london": "London",
+    "tokyo": "Tokyo",
+    "cancun": "Cancun",
+    "cartagena": "Cartagena",
+    "dubai": "Dubai",
+    "milan": "Milan",
+    "morocco": "Morocco",
+    "paris": "Paris"
+  },
+  "packages": {
+    "weddingDay": "Wedding Day",
+    "photo": "Photo",
+    "video": "Video",
+    "photoAndVideo": "Photo & Video",
+    "engagementSession": "Engagement Session",
+    "rehearsalDinner": "Rehearsal Dinner"
+  },
+  "team": {
+    "sophia": "Sophia Fafutis",
+    "dimitri": "Dimitri Fafutis",
+    "giorgos": "Giorgos Baroutsos"
+  },
+  "form": {
+    "step0": {
+      "title": "What is the Bride's Name?",
+      "description": "Please provide the bride's name to personalize your wedding experience with us.",
+      "label": "Bride's Name",
+      "error": "Please enter the bride's name!"
+    },
+    "step1": {
+      "title": "What is the Groom's Name?",
+      "description": "Please provide the groom's name to personalize your wedding experience.",
+      "label": "Groom's Name",
+      "error": "Please enter the groom's name!"
+    },
+    "step2": {
+      "title": "What Kind of Wedding Are You Planning?",
+      "description": "Select the type of wedding you envision to help us tailor our services to your needs.",
+      "beachWedding": "Beach Wedding",
+      "gardenWedding": "Garden Wedding",
+      "destinationWedding": "Destination Wedding",
+      "error": "Please select a wedding type to continue!"
+    },
+    "step3": {
+      "title": "What is Your Wedding Budget?",
+      "description": "Select a budget range that aligns with your wedding plans to help us provide the best options.",
+      "budget1": "Under $5,000",
+      "budget2": "$5,000 - $10,000",
+      "budget3": "$10,000 - $20,000",
+      "budget4": "Above $20,000",
+      "error": "Please select a budget range to continue!"
+    },
+    "step4": {
+      "title": "When is Your Wedding Date?",
+      "description": "Provide your wedding date to check our availability.",
+      "label": "Wedding Date",
+      "error": "Please select a wedding date!"
+    },
+    "step3Email": {
+      "title": "What Is Your Email?",
+      "description": "We will use this to send you more information!.",
+      "label": "Email",
+      "error": "Please enter a valid email!"
+    },
+    "step4Date": {
+      "title": "When is Your Wedding Date?",
+      "description": "Provide your wedding date to check our availability.",
+      "label": "Wedding Date",
+      "error": "Please select a wedding date!"
+    },
+    "step5": {
+      "title": "Additional Information",
+      "description": "Let us know any extra details or special requests to make your wedding perfect.",
+      "label": "Additional Information",
+      "placeholder": "Tell us more about your wedding..."
+    },
+    "review": {
+      "title": "Review Your Information",
+      "description": "Please review your details before submitting."
+    }
+  },
+  "weddings": {
+    "eugenia_izaak": "Eugenia & Izaak",
+    "erika_joey": "Erika & Joey",
+    "domi_tavo": "Domi & Tavo",
+    "david_edurne": "David & Edurne",
+    "dani_mau": "Dani & Mau",
+    "izaak_simi": "Izaak & Simi",
+    "juli_ty": "Juli & Ty",
+    "gaby_tono": "Gaby & Tono"
+  },
+  "contact": {
+    "sendMessage": "Send Message",
+    "email": "E-mail",
+    "phones": "Phones",
+    "followMe": "Follow Me",
+    "terms": "Terms",
+    "privacyPolicy": "Privacy Policy"
+  }
+}

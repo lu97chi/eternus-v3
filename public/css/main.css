@@ -6567,6 +6567,10 @@ a.logo:hover {
   text-align: center;
   position: relative;
   border-radius: 50%;
+  min-width: 80px !important;
+  min-height: 80px !important;
+  width: 80px !important;
+  height: 80px !important;
 }
 .rotating-button__link * {
   pointer-events: none;
@@ -12188,66 +12192,68 @@ blockquote svg {
   font-size: x-large;
 }
 
+/* Grid section containing the gallery */
+section:has(> .grid_gallery_container) {
+  width: 100%;
+  padding: 3rem 0;
+}
+
+/* Grid container */
 .grid_gallery_container {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(11, 320px); /* 11 rows, each 32px tall */
-  grid-template-areas:
-    "A"
-    "B"
-    "C"
-    "D"
-    "E"
-    "G"
-    "H"
-    "I"
-    "J"
-    "K"
-    "L";
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr) !important;
+  gap: 0 !important;
 }
 
-/* Tablet layout */
-@media screen and (min-width: 600px) {
-  .grid_gallery_container {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 320px); /* 6 rows, each 32px tall */
-    grid-template-areas:
-      "A A"
-      "B C"
-      "D E"
-      "G H"
-      "I J"
-      "K L";
-  }
+.grid_gallery_container .item {
+  overflow: hidden;
+  border-radius: 8px;
+  position: relative;
+  height: 100%;
+  width: 100%;
 }
 
-/* Desktop layout */
-@media screen and (min-width: 1024px) {
-  .grid_gallery_container {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(6, 320px); /* 6 rows, each 32px tall */
-    grid-template-areas:
-      "A B B"
-      "A C D"
-      "A F G"
-      "A I J"
-      "K L L";
-  }
+.grid_gallery_container .item a {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
+
+.grid_gallery_container .item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 
 /* Assign grid areas */
-.A { grid-area: A; }
-.B { grid-area: B; }
-.C { grid-area: C; }
-.D { grid-area: D; }
-.E { grid-area: E; }
-.F { grid-area: F; }
-.G { grid-area: G; }
-.H { grid-area: H; }
-.I { grid-area: I; }
-.J { grid-area: J; }
-.K { grid-area: K; }
-.L { grid-area: L; }
+.item.A { grid-area: A; }
+.item.B { grid-area: B; }
+.item.C { grid-area: C; }
+.item.D { grid-area: D; }
+.item.E { grid-area: E; }
+.item.F { grid-area: F; }
+.item.G { grid-area: G; }
+.item.H { grid-area: H; }
+.item.I { grid-area: I; }
+.item.J { grid-area: J; }
+.item.K { grid-area: K; }
+.item.L { grid-area: L; }
+.item.M { grid-area: M; }
+.item.N { grid-area: N; }
+.item.O { grid-area: O; }
+.item.P { grid-area: P; }
+.item.Q { grid-area: Q; }
+.item.R { grid-area: R; }
+.item.S { grid-area: S; }
+.item.T { grid-area: T; }
+.item.U { grid-area: U; }
+.item.V { grid-area: V; }
+.item.W { grid-area: W; }
+.item.X { grid-area: X; }
+.item.Y { grid-area: Y; }
+.item.Z { grid-area: Z; }
 
 .hide_circle_animation svg{
   display: none;

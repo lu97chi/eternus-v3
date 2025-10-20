@@ -1,0 +1,135 @@
+{
+  "common": {
+    "bookNow": "Reservar Ahora",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "submit": "Enviar",
+    "loading": "Cargando...",
+    "play": "Reproducir"
+  },
+  "nav": {
+    "home": "Inicio",
+    "portfolio": "Portafolio",
+    "team": "Equipo",
+    "packages": "Paquetes",
+    "contact": "Contacto",
+    "getInTouch": "Ponte en Contacto"
+  },
+  "hero": {
+    "title": "Eternus",
+    "subtitle": "Cuando las flores se marchitan y la música se detiene, todo lo que queda son los <u>momentos que recordamos</u>",
+    "tagline": "Bodas Eternas"
+  },
+  "sections": {
+    "seeOurWork": "Ver nuestro trabajo",
+    "destinations": "Destinos",
+    "testimonials": "Testimonios",
+    "team": "Equipo",
+    "packages": "Paquetes",
+    "teaser": "Teaser de Boda",
+    "promotional": "Video Promocional de Boda",
+    "credits": "Créditos"
+  },
+  "destinations": {
+    "ibiza": "Ibiza",
+    "mykonos": "Mykonos",
+    "london": "Londres",
+    "tokyo": "Tokio",
+    "cancun": "Cancún",
+    "cartagena": "Cartagena",
+    "dubai": "Dubái",
+    "milan": "Milán",
+    "morocco": "Marruecos",
+    "paris": "París"
+  },
+  "packages": {
+    "weddingDay": "Día de Bodas",
+    "photo": "Fotografía",
+    "video": "Video",
+    "photoAndVideo": "Fotografía y Video",
+    "engagementSession": "Sesión de Compromiso",
+    "rehearsalDinner": "Cena de Ensayo"
+  },
+  "team": {
+    "sophia": "Sophia Fafutis",
+    "dimitri": "Dimitri Fafutis",
+    "giorgos": "Giorgos Baroutsos"
+  },
+  "form": {
+    "step0": {
+      "title": "¿Cuál es el nombre de la novia?",
+      "description": "Por favor proporciona el nombre de la novia para personalizar tu experiencia de boda con nosotros.",
+      "label": "Nombre de la Novia",
+      "error": "¡Por favor ingresa el nombre de la novia!"
+    },
+    "step1": {
+      "title": "¿Cuál es el nombre del novio?",
+      "description": "Por favor proporciona el nombre del novio para personalizar tu experiencia de boda.",
+      "label": "Nombre del Novio",
+      "error": "¡Por favor ingresa el nombre del novio!"
+    },
+    "step2": {
+      "title": "¿Qué tipo de boda estás planeando?",
+      "description": "Selecciona el tipo de boda que imaginas para ayudarnos a adaptar nuestros servicios a tus necesidades.",
+      "beachWedding": "Boda en la Playa",
+      "gardenWedding": "Boda en el Jardín",
+      "destinationWedding": "Boda en Destino",
+      "error": "¡Por favor selecciona un tipo de boda para continuar!"
+    },
+    "step3": {
+      "title": "¿Cuál es tu presupuesto para la boda?",
+      "description": "Selecciona un rango de presupuesto que se alinee con tus planes de boda para ayudarnos a proporcionar las mejores opciones.",
+      "budget1": "Menos de $5,000",
+      "budget2": "$5,000 - $10,000",
+      "budget3": "$10,000 - $20,000",
+      "budget4": "Más de $20,000",
+      "error": "¡Por favor selecciona un rango de presupuesto para continuar!"
+    },
+    "step4": {
+      "title": "¿Cuándo es tu fecha de boda?",
+      "description": "Proporciona tu fecha de boda para verificar nuestra disponibilidad.",
+      "label": "Fecha de Boda",
+      "error": "¡Por favor selecciona una fecha de boda!"
+    },
+    "step3Email": {
+      "title": "¿Cuál es tu Correo Electrónico?",
+      "description": "Lo usaremos para enviarte más información!.",
+      "label": "Correo Electrónico",
+      "error": "¡Por favor ingresa un correo válido!"
+    },
+    "step4Date": {
+      "title": "¿Cuándo es tu fecha de boda?",
+      "description": "Proporciona tu fecha de boda para verificar nuestra disponibilidad.",
+      "label": "Fecha de Boda",
+      "error": "¡Por favor selecciona una fecha de boda!"
+    },
+    "step5": {
+      "title": "Información Adicional",
+      "description": "Cuéntanos detalles extras o solicitudes especiales para hacer tu boda perfecta.",
+      "label": "Información Adicional",
+      "placeholder": "Cuéntanos más sobre tu boda..."
+    },
+    "review": {
+      "title": "Revisa tu Información",
+      "description": "Por favor revisa tus detalles antes de enviar."
+    }
+  },
+  "weddings": {
+    "eugenia_izaak": "Eugenia & Izaak",
+    "erika_joey": "Erika & Joey",
+    "domi_tavo": "Domi & Tavo",
+    "david_edurne": "David & Edurne",
+    "dani_mau": "Dani & Mau",
+    "izaak_simi": "Izaak & Simi",
+    "juli_ty": "Juli & Ty",
+    "gaby_tono": "Gaby & Tono"
+  },
+  "contact": {
+    "sendMessage": "Enviar Mensaje",
+    "email": "Correo Electrónico",
+    "phones": "Teléfonos",
+    "followMe": "Sígueme",
+    "terms": "Términos",
+    "privacyPolicy": "Política de Privacidad"
+  }
+}
