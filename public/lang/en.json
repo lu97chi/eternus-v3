@@ -5,7 +5,8 @@
     "previous": "Previous",
     "submit": "Submit",
     "loading": "Loading...",
-    "play": "Play"
+    "play": "Play",
+    "scroll": "Scroll down"
   },
   "nav": {
     "home": "Home",
@@ -24,6 +25,7 @@
     "seeOurWork": "See our work ",
     "destinations": "Destinations",
     "testimonials": "Testimonials",
+    "eternalWeddings": " Eternal Weddings ",
     "team": "Team",
     "packages": "Packages",
     "teaser": "Wedding Teaser",

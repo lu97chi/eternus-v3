@@ -5,7 +5,8 @@
     "previous": "Anterior",
     "submit": "Enviar",
     "loading": "Cargando...",
-    "play": "Reproducir"
+    "play": "Reproducir",
+    "scroll": "Seguir bajando"
   },
   "nav": {
     "home": "Inicio",
@@ -24,6 +25,7 @@
     "seeOurWork": "Ver nuestro trabajo",
     "destinations": "Destinos",
     "testimonials": "Testimonios",
+    "eternalWeddings": " Eternal Weddings ",
     "team": "Equipo",
     "packages": "Paquetes",
     "teaser": "Teaser de Boda",
