@@ -1763,8 +1763,10 @@ img {
 }
 
 .bg-gray-3 {
-  background-color: var(--color-gray-3) !important;
-  --overlay-rgb: var(--color-gray-3-rgb) !important;
+  /*background-color: var(--color-gray-3) !important;*/
+  background-color: #060B14 !important; 
+ /* --overlay-rgb: var(--color-gray-3-rgb) !important;*/
+ --overlay-rgb:#060B14 !important;
 }
 
 .bg-gray-4 {
