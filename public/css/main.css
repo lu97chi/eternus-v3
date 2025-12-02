@@ -1763,8 +1763,10 @@ img {
 }
 
 .bg-gray-3 {
-  background-color: var(--color-gray-3) !important;
-  --overlay-rgb: var(--color-gray-3-rgb) !important;
+  /*background-color: var(--color-gray-3) !important;*/
+  background-color: #060B14 !important; 
+ /* --overlay-rgb: var(--color-gray-3-rgb) !important;*/
+ --overlay-rgb:#060B14 !important;
 }
 
 .bg-gray-4 {
@@ -4906,10 +4908,10 @@ video.lazy:not(.error) + img.lazy {
   z-index: 50;
 }
 
-a.marquee-header__item {
+div.marquee-header__item {
   display: inline-block;
 }
-a.marquee-header__item:hover * {
+div.marquee-header__item:hover * {
   color: currentColor;
 }
 
@@ -11607,7 +11609,7 @@ blockquote svg {
   border: 1px solid var(--color-border-solid);
   border-radius: 2px;
   padding: 12px 36px 12px 16px;
-  background-color: transparent;
+  background-color: #060B14;
   outline: none;
   -webkit-appearance: none;
   -moz-appearance: none;
