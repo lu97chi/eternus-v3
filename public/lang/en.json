@@ -23,6 +23,7 @@
   },
   "sections": {
     "seeOurWork": "See our work ",
+    "ourWay":"Places that are part of our way",
     "destinations": "Destinations",
     "testimonials": "Testimonials",
     "eternalWeddings": " Eternal Weddings ",
@@ -46,6 +47,7 @@
   },
   "packages": {
     "weddingDay": "Wedding Day",
+    "eternalHistory":"Let us make your history eternal",
     "photo": "Photo",
     "video": "Video",
     "photoAndVideo": "Photo & Video",

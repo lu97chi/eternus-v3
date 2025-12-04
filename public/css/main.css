@@ -7355,6 +7355,7 @@ a.logo:hover {
  * ======================================================================!*/
 .slider-testimonials {
   position: relative;
+  display: block;
 }
 
 .slider-testimonials__container {
@@ -9960,6 +9961,7 @@ a.logo:hover {
 
 .team-member__name {
   transition: all 0.3s ease;
+  white-space: nowrap;
   transition-delay: 150ms;
 }
 
