@@ -7266,9 +7266,9 @@ a.logo:hover {
   position: relative;
   border-radius: 50%;
   min-width: 80px !important;
-  min-height: 80px !important;
-  width: 80px !important;
-  height: 80px !important;
+  min-height: 60px !important;
+  width: 60px !important;
+  height: 60px !important;
 }
 
 .rotating-button__link * {
@@ -7349,6 +7349,11 @@ a.logo:hover {
   .rotating-button__label {
     font-size: 10px;
   }
+}
+
+.rotating-button__label {
+  font-size: 10px;
+  /* General reduction to fit smaller circle */
 }
 
 /*!========================================================================
