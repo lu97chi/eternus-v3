@@ -18,11 +18,12 @@
   },
   "hero": {
     "title": "Eternus",
-    "subtitle": "Cuando las flores se marchitan y la música se detiene, todo lo que queda son los <u>momentos que recordamos</u>",
+    "subtitle": "Cuando las flores se marchitan y la música se detiene, todo lo que queda son los momentos que recordamos",
     "tagline": "Bodas Eternas"
   },
   "sections": {
     "seeOurWork": "Ver nuestro trabajo",
+    "ourWay":"Lugares que forman parte de nuestro camino",
     "destinations": "Destinos",
     "testimonials": "Testimonios",
     "eternalWeddings": " Eternal Weddings ",
@@ -46,6 +47,7 @@
   },
   "packages": {
     "weddingDay": "Día de Bodas",
+    "eternalHistory":"Hagamos que su historia sea eterna",
     "photo": "Fotografía",
     "video": "Video",
     "photoAndVideo": "Fotografía y Video",
