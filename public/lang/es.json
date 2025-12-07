@@ -18,12 +18,12 @@
   },
   "hero": {
     "title": "Eternus",
-    "subtitle": "Cuando las flores se marchitan y la música se detiene, todo lo que queda son los momentos que recordamos",
+    "subtitle": "Cuando las flores se marchitan y la música se detiene, todo lo que queda son los <span class=\"moments-we-remember\">momentos que recordamos</span>",
     "tagline": "Bodas Eternas"
   },
   "sections": {
     "seeOurWork": "Ver nuestro trabajo",
-    "ourWay":"Lugares que forman parte de nuestro camino",
+    "ourWay": "Lugares que forman parte de nuestro camino",
     "destinations": "Destinos",
     "testimonials": "Testimonios",
     "eternalWeddings": " Eternal Weddings ",
@@ -43,11 +43,15 @@
     "dubai": "Dubái",
     "milan": "Milán",
     "morocco": "Marruecos",
-    "paris": "París"
+    "paris": "París",
+    "newYork": "Nueva York",
+    "RD": "República Dominicana",
+    "Tulum": "Tulum",
+    "VDG": "Valle De Guadalupe"
   },
   "packages": {
     "weddingDay": "Día de Bodas",
-    "eternalHistory":"Hagamos que su historia sea eterna",
+    "eternalHistory": "Hagamos que su historia sea eterna",
     "photo": "Fotografía",
     "video": "Video",
     "photoAndVideo": "Fotografía y Video",

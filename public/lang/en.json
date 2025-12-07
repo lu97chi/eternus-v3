@@ -18,12 +18,12 @@
   },
   "hero": {
     "title": "Eternus",
-    "subtitle": "When the flowers fade and the music stops, all that remains are the moments we remember",
+    "subtitle": "When the flowers fade and the music stops, all that remains are the <span class=\"moments-we-remember\">moments we capture.</span>",
     "tagline": "Eternal Weddings"
   },
   "sections": {
     "seeOurWork": "See our work ",
-    "ourWay":"Places that are part of our way",
+    "ourWay": "Places that are part of our way",
     "destinations": "Destinations",
     "testimonials": "Testimonials",
     "eternalWeddings": " Eternal Weddings ",
@@ -43,11 +43,15 @@
     "dubai": "Dubai",
     "milan": "Milan",
     "morocco": "Morocco",
-    "paris": "Paris"
+    "paris": "Paris",
+    "newYork": "New York",
+    "RD": "Republica Dominicana",
+    "Tulum": "Tulum",
+    "VDG": "Valle De Guadalupe"
   },
   "packages": {
     "weddingDay": "Wedding Day",
-    "eternalHistory":"Let us make your history eternal",
+    "eternalHistory": "Let us make your history eternal",
     "photo": "Photo",
     "video": "Video",
     "photoAndVideo": "Photo & Video",
